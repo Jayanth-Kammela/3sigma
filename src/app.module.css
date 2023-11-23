@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #EBF0F4;
+    padding: 18px !important;
+}
+
+.form-container {
+    width: 80%;
+}
+
+.emaillb {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.input {
+    border-radius: 10px;
+    background: #FFF;
+    height: 57px !important;
+    color: rgba(110, 120, 138, 0.60);
+    outline: none;
+}
+
+.txtarea {
+    border-radius: 10px;
+    background: #FFF;
+    color: rgba(110, 120, 138, 0.60);
+    outline: none;
+}
+
+.mainselect {
+    border-radius: 10px;
+    background: #FFF;
+    height: 57px !important;
+    color: rgba(110, 120, 138, 0.60);
+    outline: none;
+}
+
+.inputselect {
+    color: rgba(110, 120, 138, 0.60);
+    outline: none;
+}
+
+.headtxt {
+    color: #000;
+    font-family: Gilroy-Black;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.leadtxt {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media(max-width:550px){
+    .headtxt {
+        color: #000;
+        font-family: Gilroy-Black;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .logo {
+        width: 140px !important;
+        height: 75px !important;
+        flex-shrink: 0;
+    }
+
+    .leadtxt {
+        color: #000;
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.logo {
+    width: 168px;
+    height: 75px;
+    flex-shrink: 0;
+}
+
+
+.btncancel {
+    width: 114px;
+    height: 52px;
+    color: #DF3737;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.50);
+    background: rgba(217, 217, 217, 0.00);
+}
+
+.btnlead {
+    height: 67px;
+    border-radius: 10px;
+    background: #3A4B86;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
