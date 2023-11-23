@@ -98,6 +98,11 @@
     flex-shrink: 0;
 }
 
+.img{
+    width: auto;
+    height: 220px;
+}
+
 
 .btncancel {
     width: 114px;
